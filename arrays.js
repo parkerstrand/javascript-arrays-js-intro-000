@@ -5,3 +5,13 @@ function addElementToBeginningOfArray(array, item){
   newArray.unshift(item);
   return newArray;
 }
+function destructivelyAddElementToBeginningOfArray(array, item){
+  array.unshift(item);
+  return array;
+}
+
+function addElementToEndOfArray(array, item){
+  var newArray = array;
+  newArray.push(item);
+  return newArray;
+}
